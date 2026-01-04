@@ -77,8 +77,8 @@ struct modifier_symbol ms_win = {
 
 struct modifier_symbol *modifier_symbols[] = {
     // this order determines the order of the symbols
-    &ms_win,
     &ms_alt,
+    &ms_win,
     &ms_control,
     &ms_shift
 };
